@@ -13,6 +13,8 @@ jobs:
         with:
           python-version: "3.9"
 
-      - name: run-build 
+      - name: run-build
+        env:
+          SECRET_VALUE: ${{ secrets.SECRET_VALUE }}
         run: |
           python main.py
