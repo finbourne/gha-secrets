@@ -8,3 +8,5 @@ if secret == None:
     sys.exit(1)
 
 print(f"got secret SECRET_VALUE with value {secret}")
+
+print("end")
